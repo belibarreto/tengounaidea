@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Bettermilk";
+    src: url(../fonts/Bettermilk.otf);
+}
+
+body{
+    background-color: rgb(189, 179, 198);
+    font-family: "Bettermilk";
+    .background-video{
+        width: 80vw;
+        height: 80vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        
+    }
+}
+h1{
+    text-align: center;
+    padding: 5px;
+     color: rgb(10, 10, 97);
+     font-size: 2rem;
+    }
+h2{
+    text-align: center;
+    padding: 8px;
+    color: rgb(230, 36, 230);
+}
+
+.rojo{
+    color:red
+}
+p{
+    padding: 15px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+ul{
+    padding: 13px;
+    text-align: center;
+    color: aqua;
+}
+li{
+    padding: 8px;
+    border-color: goldenrod;
+    margin: 8px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px;
+    background-color: rgb(84, 84, 145);
+}
+h5{
+    text-align: center;
+    color: black;
+    background-color: beige;
+    padding: 10px;
+}
+.img1{
+    text-align: center;
+}
+.bordeRedondeado{
+    border-radius: 50%;
+    border-color: black 3px;
+}
+a{
+    color: rgb(210, 154, 163);
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    border: black 3px solid;
+    background-color: antiquewhite;
+}
+
+
+{}
